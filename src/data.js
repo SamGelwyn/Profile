@@ -11,7 +11,7 @@ export const projects = [
     title: "Gahoot!",
     subtitle: "React and Rails",
     description:
-      "Gahoot is a collaborative effort with a group of 4 other students at General Assembly. It is a trivia application inspired by Kahoot! Technology stack used includes HTML, CSS, React, Ruby on Rails, Postgresql, Cloudinary and deployed using Heroku.",
+      "Gahoot is a collaborative effort with a group of 4 other students at General Assembly. It is a trivia application inspired by Kahoot! Technology stack used includes React, Ruby on Rails, Postgresql, Cloudinary and deployed using Heroku.",
     image: "./Gahoot!.png",
     link: "https://github.com/SamGelwyn/GAHOOT-client",
   },
@@ -19,8 +19,9 @@ export const projects = [
     title: "samgelwyn.com",
     subtitle: "React and tailwindcss",
     description:
-      "My profile page. Built using Create React App and deployed using Netlify, It was a good excuse to learn tailwindcss",
+      "My profile page was a good excuse to learn tailwindcss. Built using Create React App and deployed using Netlify.",
     image: "./Profile-1.png",
+    link: "https://github.com/SamGelwyn/Profile",
   },
 
 ];
