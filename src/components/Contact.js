@@ -62,7 +62,7 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 Twitter
               </h2>
-              <p className="leading-relaxed"><a href="https://www.linkedin.com/in/SamGelwyn/" target="blank">
+              <p className="leading-relaxed"><a href="https://twitter.com/SamGelwyn" target="blank">
                 @SamGelwyn
               </a></p>
             
