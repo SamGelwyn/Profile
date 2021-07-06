@@ -27,27 +27,46 @@ export default function Contact() {
   return (
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap justify-evenly">
-        <div className="lg:w-1/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex justify-evenly items-center relative justify-self-auto">
-          <div className="px-6 mt-4 lg:mt-0">
-            <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-              LOCATION
-            </h2>
-            <p className="mt-1">
-              Sydney, Australia
-            </p>
-            <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-              GitHub
-            </h2>
-            <p className="leading-relaxed"><a href="https://github.com/SamGelwyn" target="blank">
-              github.com/SamGelwyn
-            </a></p>
-            <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-              LinkedIn
-            </h2>
-            <p className="leading-relaxed"><a href="https://www.linkedin.com/in/SamGelwyn/" target="blank">
-              linkedin.com/in/SamGelwyn
-            </a></p>
-          
+        <div className="md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-center relative justify-self-auto">
+          <iframe
+            width="100%"
+            height="100%"
+            title="map"
+            className="absolute inset-0"
+            frameBorder={0}
+            marginHeight={0}
+            marginWidth={0}
+            style={{ filter: "opacity(0.7)" }}
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d851421.5988093872!2d150.40508505247792!3d-33.53087928536055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b0d33396201f3d1%3A0xda239c5e8db8a5c!2sCentral%20Coast%2C%20NSW!5e0!3m2!1sen!2sau!4v1625453667867!5m2!1sen!2sau"
+          />
+          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+            <div className="px-6 mt-4 lg:mt-0">
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs">
+                Location
+              </h2>
+              <p className="mt-1">
+                Central Coast, NSW Australia
+              </p>
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+                GitHub
+              </h2>
+              <p className="leading-relaxed"><a href="https://github.com/SamGelwyn" target="blank">
+                github.com/SamGelwyn
+              </a></p>
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+                LinkedIn
+              </h2>
+              <p className="leading-relaxed"><a href="https://www.linkedin.com/in/SamGelwyn/" target="blank">
+                linkedin.com/in/SamGelwyn
+              </a></p>
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+                Twitter
+              </h2>
+              <p className="leading-relaxed"><a href="https://www.linkedin.com/in/SamGelwyn/" target="blank">
+                @SamGelwyn
+              </a></p>
+            
+            </div>
           </div>
         </div>
         <form
