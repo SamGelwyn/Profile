@@ -15,6 +15,13 @@ export const projects = [
     image: "./Gahoot!.png",
     link: "https://github.com/SamGelwyn/GAHOOT-client",
   },
+  {
+    title: "samgelwyn.com",
+    subtitle: "React and tailwindcss",
+    description:
+      "My profile page. Built using Create React App and deployed using Netlify, It was a good excuse to learn tailwindcss",
+    image: "./Profile-1.png",
+  },
 
 ];
 
@@ -23,19 +30,13 @@ export const jobs = [
     title: "Quality Assurance Manager",
     company: "Eco Community",
     description:
-      "Supervised and inspected the design, installation and commissioning of small and large scale renewable energy solutions. Qualified Supervisor, Qualified Technical Person (QTP) and Technical nominee for the company in NSW, QLD and VIC respectively.",
+      "Supervised and inspected the design, installation and commissioning of small and large scale renewable energy solutions. Qualified Supervisor, Qualified Technical Person (QTP) and Technical nominee for the company in NSW, QLD and VIC respectively. CEC Accredited Installer",
   },
   {
     title: "Research & Developement",
     company: "Eco Community",
     description:
       "Investigated and advanced proprietary structural systems. Recommended more efficient systems to integrate with networked technologies",
-  },
-  { 
-    title: "Electrical Estimator",
-    company: "DNA Electrical",
-    description:
-      "",
   },
   {
     title: "AV Estimator",

@@ -24,7 +24,7 @@ export default function Accordion(props) {
   return (
     <div className="flex flex-col p-4 md:w-1/2 w-full">
       <div className={`h-full bg-opacity-40 p-1 rounded transition duration-600 ease hover:bg-gray-700 ${setBackground}`}>
-        <button className={`w-full cursor-pointer p-4 flex items-center border-none outline-none transition duration-600 ease`} onClick={toggleAccordion}>
+        <button className={`w-full cursor-pointer p-4 flex items-center border-none focus:outline-none transition duration-600 ease`} onClick={toggleAccordion}>
           <div className="flex flex-col w-full text-center">
             <div className="title-font font-medium text-white">
             {props.title}
