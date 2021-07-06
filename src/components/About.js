@@ -10,7 +10,7 @@ export default function About() {
             <br className="hidden lg:inline-block" />I love to solve problems by building apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I am a Junior Software Engineer with a background in Electrical / Renewable Energy Engineering.
+            I am a Junior Software Engineer, with a background in Electrical / Renewable Energy Engineering.
           </p>
           <div className="flex justify-center">
             <a
